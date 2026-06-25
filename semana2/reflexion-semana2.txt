@@ -1,7 +1,56 @@
-La terminal es una herramienta fundamental para todo desarrollador porque permite navegar y organizar archivos de manera rápida y eficiente dentro de un proyecto. A diferencia de la interfaz gráfica, la terminal ofrece mayor control y precisión sobre el sistema de archivos, permitiendo crear, mover, eliminar y modificar archivos con comandos simples.
+╔═══════════════════════════════════════════════════════════════╗
+║           REFLEXIÓN - TAREA SEMANA 2                          ║
+║           Programadores Por La Paz                            ║
+║           Terminal, Carpetas, Archivos y Git                  ║
+╚═══════════════════════════════════════════════════════════════╝
 
-Para un desarrollador, saber usar la terminal significa poder trabajar en cualquier entorno, incluyendo servidores remotos donde no existe interfaz gráfica. Además, muchos procesos de desarrollo como la compilación, ejecución de pruebas y despliegues se realizan desde la línea de comandos.
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA:                                                    │
+│  ¿Por qué es importante la terminal para los desarrolladores  │
+│  y cómo se relaciona con la organización del trabajo?         │
+└───────────────────────────────────────────────────────────────┘
 
-La terminal también facilita la automatización de tareas repetitivas mediante scripts, lo que ahorra tiempo y reduce errores humanos. Comprender comandos básicos como ls, cd, mkdir, touch y pwd es esencial para mantener un proyecto bien organizado.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 MI REFLEXIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-En resumen, dominar la terminal es una habilidad que todo desarrollador debe poseer para ser más productivo, trabajar de forma colaborativa y tener control total sobre su entorno de desarrollo.
+La terminal es una herramienta fundamental para todo
+desarrollador porque permite navegar y organizar archivos de
+manera rápida y eficiente dentro de un proyecto. A diferencia
+de la interfaz gráfica, la terminal ofrece mayor control y
+precisión sobre el sistema de archivos, permitiendo crear,
+mover, eliminar y modificar archivos con comandos simples.
+
+Para un desarrollador, saber usar la terminal significa poder
+trabajar en cualquier entorno, incluyendo servidores remotos
+donde no existe interfaz gráfica. Además, muchos procesos de
+desarrollo como la compilación, ejecución de pruebas y
+despliegues se realizan desde la línea de comandos.
+
+La terminal también facilita la automatización de tareas
+repetitivas mediante scripts, lo que ahorra tiempo y reduce
+errores humanos. Comprender comandos básicos como ls, cd,
+mkdir, touch y pwd es esencial para mantener un proyecto bien
+organizado.
+
+En resumen, dominar la terminal es una habilidad que todo
+desarrollador debe poseer para ser más productivo, trabajar de
+forma colaborativa y tener control total sobre su entorno de
+desarrollo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💡 PUNTOS CLAVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✓ Mayor control y precisión sobre el sistema de archivos
+  ✓ Funciona en cualquier entorno (incluyendo servidores)
+  ✓ Facilita la automatización de tareas con scripts
+  ✓ Esencial para compilación, pruebas y despliegues
+  ✓ Habilidad fundamental para ser productivo y colaborativo
+
+════════════════════════════════════════════════════════════════
+  Estudiante: Devin Polanco Romero
+  Programa: Programadores Por La Paz
+  Universidad de Cartagena
+  Semana 2 - Junio 2026
+════════════════════════════════════════════════════════════════

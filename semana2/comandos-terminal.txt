@@ -1,12 +1,78 @@
-pwd
-ls
-mkdir semana2
-cd semana2
-touch preguntas-semana2.txt
-touch comandos-terminal.txt
-touch reflexion-semana2.txt
-cd ..
-git status
-git add .
-git commit -m "Actividad semana 2"
-git push
+╔═══════════════════════════════════════════════════════════════╗
+║           COMANDOS DE TERMINAL - TAREA SEMANA 2               ║
+║           Programadores Por La Paz                            ║
+║           Terminal, Carpetas, Archivos y Git                  ║
+╚═══════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📂 COMANDOS DE NAVEGACIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  pwd
+  │  → Muestra la ubicación actual (directorio de trabajo)
+  │  → Ejemplo: C:\Users\Devin\Documents
+
+  cd [carpeta]
+  │  → Navega entre directorios
+  │  → Ejemplo: cd semana2
+  │  → Para volver atrás: cd ..
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📁 COMANDOS PARA ARCHIVOS Y CARPETAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ls
+  │  → Lista archivos y carpetas del directorio actual
+  │  → En Windows: dir
+
+  mkdir [nombre]
+  │  → Crea una nueva carpeta
+  │  → Ejemplo: mkdir semana2
+
+  touch [archivo]
+  │  → Crea un archivo vacío
+  │  → Ejemplo: touch preguntas-semana2.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔀 COMANDOS DE GIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  git status
+  │  → Muestra el estado del repositorio
+  │  → Indica archivos modificados, nuevos o eliminados
+
+  git add .
+  │  → Agrega todos los archivos al área de preparación
+  │  → Prepara los cambios para el commit
+
+  git commit -m "mensaje"
+  │  → Guarda los cambios localmente con un mensaje descriptivo
+  │  → Ejemplo: git commit -m "Actividad semana 2"
+
+  git push
+  │  → Sube los cambios al repositorio remoto (GitHub)
+  │  → Hace que los cambios estén disponibles para otros
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔄 FLUJO DE TRABAJO UTILIZADO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. pwd                          → Verificar ubicación
+  2. ls                           → Listar contenido actual
+  3. mkdir semana2                → Crear carpeta de la semana
+  4. cd semana2                   → Entrar a la carpeta
+  5. touch preguntas-semana2.txt  → Crear archivo de preguntas
+  6. touch comandos-terminal.txt  → Crear archivo de comandos
+  7. touch reflexion-semana2.txt  → Crear archivo de reflexión
+  8. cd ..                        → Volver a la raíz
+  9. git status                   → Verificar cambios
+  10. git add .                   → Preparar archivos
+  11. git commit -m "..."         → Guardar cambios
+  12. git push                    → Subir a GitHub
+
+════════════════════════════════════════════════════════════════
+  Estudiante: Devin Polanco Romero
+  Programa: Programadores Por La Paz
+  Universidad de Cartagena
+  Semana 2 - Junio 2026
+════════════════════════════════════════════════════════════════

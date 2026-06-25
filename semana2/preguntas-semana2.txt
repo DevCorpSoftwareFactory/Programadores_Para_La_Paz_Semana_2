@@ -1,11 +1,61 @@
-Pregunta 1:
-Respuesta: B. Ejecutar comandos para interactuar con el sistema
+╔═══════════════════════════════════════════════════════════════╗
+║           RESPUESTAS - TAREA SEMANA 2                         ║
+║           Programadores Por La Paz                            ║
+║           Terminal, Carpetas, Archivos y Git                  ║
+╚═══════════════════════════════════════════════════════════════╝
 
-Pregunta 2:
-Respuesta: B. Muestra la ubicación actual dentro del sistema de carpetas
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 1                                                   │
+│  ¿Qué es la terminal?                                        │
+├───────────────────────────────────────────────────────────────┤
+│  A. Un programa para dibujar                                  │
+│  B. Ejecutar comandos para interactuar con el sistema         │
+│  C. Un navegador de internet                                  │
+│  D. Un editor de imágenes                                     │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: B                                               │
+└───────────────────────────────────────────────────────────────┘
 
-Pregunta 3:
-Respuesta: C. ls
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 2                                                   │
+│  ¿Qué hace el comando pwd?                                   │
+├───────────────────────────────────────────────────────────────┤
+│  A. Crea una nueva carpeta                                    │
+│  B. Muestra la ubicación actual dentro del sistema de         │
+│     carpetas                                                  │
+│  C. Elimina un archivo                                        │
+│  D. Lista todos los archivos del sistema                      │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: B                                               │
+└───────────────────────────────────────────────────────────────┘
 
-Pregunta 4:
-Respuesta: B. mkdir
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 3                                                   │
+│  ¿Qué comando se usa para listar archivos y carpetas?         │
+├───────────────────────────────────────────────────────────────┤
+│  A. pwd                                                       │
+│  B. cd                                                         │
+│  C. ls                                                         │
+│  D. touch                                                      │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: C                                               │
+└───────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 4                                                   │
+│  ¿Qué comando crea una nueva carpeta?                         │
+├───────────────────────────────────────────────────────────────┤
+│  A. ls                                                        │
+│  B. mkdir                                                      │
+│  C. touch                                                      │
+│  D. cd                                                         │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: B                                               │
+└───────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════
+  Estudiante: Devin Polanco Romero
+  Programa: Programadores Por La Paz
+  Universidad de Cartagena
+  Semana 2 - Junio 2026
+════════════════════════════════════════════════════════════════

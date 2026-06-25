@@ -1,0 +1,218 @@
+\documentclass[12pt,a4paper]{article}
+
+% Paquetes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+
+% Colores personalizados
+\definecolor{azulgit}{RGB}{24,80,50}
+\definecolor{grisclaro}{RGB}{245,245,245}
+
+% Configuración de hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=azulgit,
+    urlcolor=azulgit,
+    citecolor=azulgit
+}
+
+% Encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{azulgit}{\small Programadores Por La Paz}}
+\fancyhead[R]{\textcolor{azulgit}{\small Semana 2}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Títulos
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{azulgit}}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{azulgit!80!black}}
+  {\thesubsection}{1em}{}
+
+\begin{document}
+
+% Título
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries\textcolor{azulgit}{DOCUMENTO DE PRESENTACIÓN}\\[0.5cm]}
+    {\Large\textcolor{azulgit!70!black}{Tarea Semana 2}}\\[1cm]
+    
+    \vspace{1cm}
+    
+    {\Large Terminal, Carpetas, Archivos y Git}\\[2cm]
+    
+    \vspace{2cm}
+    
+    {\large\textbf{Programa:}}\\
+    {\large Programadores Por La Paz}\\[1.5cm]
+    
+    {\large\textbf{Universidad de Cartagena}}\\[2cm]
+    
+    \vfill
+    
+    {\large\textbf{Estudiante:}}\\
+    {\Large Devin Polanco Romero}\\[1cm]
+    
+    {\large Junio 2026}
+    
+\end{titlepage}
+
+% Índice
+\tableofcontents
+\newpage
+
+% Contenido principal
+\section{Información General}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|>{\bfseries}l|l|}
+\hline
+\textbf{Campo} & \textbf{Detalle} \\
+\hline
+Estudiante & Devin Polanco Romero \\
+\hline
+Programa & Programadores Por La Paz \\
+\hline
+Institución & Universidad de Cartagena \\
+\hline
+Actividad & Tarea Semana 2 \\
+\hline
+Tema & Terminal, Carpetas, Archivos y Git \\
+\hline
+Fecha & Junio 2026 \\
+\hline
+\end{tabular}
+\caption{Información de la actividad}
+\end{table}
+
+\section{Enlace del Repositorio}
+
+El desarrollo de la actividad fue publicado en el siguiente repositorio de GitHub:
+
+\vspace{0.5cm}
+
+\begin{center}
+\large
+\url{https://github.com/DevCorpSoftwareFactory/Programadores_Para_La_Paz_Semana_2}
+\end{center}
+
+\vspace{0.5cm}
+
+\noindent La carpeta \texttt{semana2} contiene todos los archivos solicitados para la entrega de la actividad.
+
+\section{Objetivo de la Semana}
+
+Aprender los fundamentos de la \textbf{terminal}, \textbf{carpetas}, \textbf{archivos}, \textbf{Git} y \textbf{GitHub} para organizar y publicar el trabajo técnico de manera profesional.
+
+\section{Desarrollo de la Actividad}
+
+\subsection{Preguntas de Selección Múltiple}
+
+Se respondieron cuatro preguntas sobre el uso de la terminal:
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+    \item \textbf{¿Qué es la terminal?} \\
+    Respuesta: Ejecutar comandos para interactuar con el sistema.
+    
+    \item \textbf{¿Qué hace el comando \texttt{pwd}?} \\
+    Respuesta: Muestra la ubicación actual dentro del sistema de carpetas.
+    
+    \item \textbf{¿Qué comando lista archivos y carpetas?} \\
+    Respuesta: \texttt{ls}
+    
+    \item \textbf{¿Qué comando crea una nueva carpeta?} \\
+    Respuesta: \texttt{mkdir}
+\end{enumerate}
+
+\subsection{Comandos de Terminal Utilizados}
+
+Se practicaron los siguientes comandos fundamentales:
+
+\begin{description}
+    \item[pwd] Muestra la ubicación actual (directorio de trabajo).
+    \item[ls] Lista archivos y carpetas del directorio actual.
+    \item[mkdir] Crea una nueva carpeta.
+    \item[cd] Navega entre directorios.
+    \item[touch] Crea un archivo vacío.
+\end{description}
+
+\subsection{Flujo de Trabajo Practicado}
+
+Se siguió el flujo completo de trabajo con Git:
+
+\begin{enumerate}
+    \item Verificar ubicación con \texttt{pwd}
+    \item Listar contenido con \texttt{ls}
+    \item Crear carpeta con \texttt{mkdir}
+    \item Navegar con \texttt{cd}
+    \item Crear archivos con \texttt{touch}
+    \item Preparar cambios con \texttt{git add}
+    \item Guardar cambios con \texttt{git commit}
+    \item Subir a GitHub con \texttt{git push}
+\end{enumerate}
+
+\subsection{Reflexión}
+
+Se desarrolló una reflexión sobre la importancia de la terminal para los desarrolladores, destacando:
+
+\begin{itemize}
+    \item Mayor control y precisión sobre el sistema de archivos
+    \item Funciona en cualquier entorno (incluyendo servidores)
+    \item Facilita la automatización de tareas con scripts
+    \item Es habilidad fundamental para ser productivo y colaborativo
+\end{itemize}
+
+\section{Archivos Entregados}
+
+La carpeta \texttt{semana2} contiene los siguientes archivos:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Archivo} & \textbf{Contenido} \\
+\hline
+preguntas-semana2.txt & Respuestas de selección múltiple \\
+\hline
+comandos-terminal.txt & Comandos utilizados en la práctica \\
+\hline
+reflexion-semana2.txt & Reflexión sobre la terminal \\
+\hline
+\end{tabular}
+\caption{Archivos de la actividad}
+\end{table}
+
+\section{Conclusiones}
+
+\begin{itemize}
+    \item Se comprendió el funcionamiento básico de la terminal y su importancia para los desarrolladores.
+    \item Se practicaron comandos fundamentales de navegación y gestión de archivos.
+    \item Se entendió el flujo de trabajo completo con Git (add, commit, push).
+    \item Se reconoció la terminal como herramienta esencial para la productividad y colaboración en desarrollo de software.
+\end{itemize}
+
+\section{Referencias}
+
+\begin{itemize}
+    \item Documentación oficial de Git: \url{https://git-scm.com/doc}
+    \item Documentación de GitHub: \url{https://docs.github.com}
+    \item Libro Pro Git: \url{https://git-scm.com/book/es/v2}
+\end{itemize}
+
+\end{document}
